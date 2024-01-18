@@ -18,21 +18,27 @@
 
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-`       <a class="nav-link" href="/realhome">Home <span class="sr-only"></span></a>
-      </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/realhome">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/products">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+        </li>
+        {% if page_title == "Create Account" %}
             <li class="nav-item">
-        <a class="nav-link" href="/products">Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact">Create Account</a>`
-      </li>
-
+                <a class="nav-link" href="/contact">{{ page_title }}</a>
+            </li>
+        {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="/confirmation">{{ page_title }}</a>
+            </li>
+        {% endif %}
     </ul>
-  </div>
+</div>
+
 </nav>
 <div class="vertical-space"></div>
 <div class="vertical-space"></div>
@@ -70,7 +76,33 @@
      alt="sock3"/>
     </div>
   </div>
+<div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+<p>
+Welcome to Quirky Sock Palace, where eccentricity meets comfort in the world of socks! Dive into a kaleidoscope of vibrant patterns, whimsical designs, and playful textures that will add a dash of personality to your every step. At Quirky Sock Palace, we believe that socks are more than just a wardrobe essential – they're a statement of individuality.
+
+Explore our diverse collection of socks, curated to cater to every taste and style. Whether you're a fan of bold colors, funky prints, or subtle elegance with a quirky twist, we have the perfect pair for you. Our socks are crafted with care, ensuring not just eye-catching aesthetics, but also utmost comfort for your feet.
+
+Quirky Sock Palace isn't just a store; it's a celebration of uniqueness. Express yourself through your socks and let your feet do the talking. From casual everyday wear to special occasion socks that steal the spotlight, we've got your feet covered in style.
+
+Join us in the world of whimsy and make your sock drawer a palette of joy. Step into Quirky Sock Palace – where every pair tells a story, and individuality is always in fashion!</p>
+
+<div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
+    <div class="vertical-space"></div>
 </div>
+
 
 
 
